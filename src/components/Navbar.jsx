@@ -10,7 +10,8 @@ export default function Navbar({ changeTheme, currentTheme }) {
     <nav>
       <div className="brand-container">
         <div className="brand">
-          <img src={logo} alt="logo" />
+          {/* <img src={logo} alt="logo" /> */}
+          <img src="https://chinmayakumarbiswal.in/js/chinmaya1.png" alt="" height="80px" width="160px" />
         </div>
         <div className="toggle-container">
           <div className="toggle">

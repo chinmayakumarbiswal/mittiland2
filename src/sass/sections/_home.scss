@@ -84,8 +84,9 @@
     .container {
       font-size: 16px;
       grid-template-columns: 0.7fr;
+      
       .image-container {
-        position: absolute;
+        position: relative;
         right: -10%;
         top: 30%;
         .image {
