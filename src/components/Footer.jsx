@@ -37,7 +37,7 @@ export default function Footer() {
           <p>Exclusive NFT Collection</p>
           <ul>
             {socialLink.map((link, index) => (
-              <li key={index}>{link}</li>
+             <li key={index}>{link}</li>
             ))}
           </ul>
         </div>
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="lower">
-        <span>&copy; Copyright 2022 NFT</span>
+        <span>&copy; Copyright mittiland<sup>TM</sup></span>
         <span>Launching August 2022</span>
       </div>
     </footer>

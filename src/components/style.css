@@ -13,14 +13,14 @@ video{
     object-fit: cover;
     /* filter: brightness(0.2); */
 }
-.cards .card1 .card{
+/* .cards .card1 .card{
     position: relative;
     top: 10vh;
 }
 .cards .card2 .card{
     position: relative;
     top: 10vh;
-}
+} */
 /* .free .container .content .image h2{
     position: relative;
     bottom: 50vh;

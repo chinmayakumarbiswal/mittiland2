@@ -1,7 +1,7 @@
 .super-rare {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  text-align: center;
   .title-container {
     display: flex;
     flex-direction: column;
@@ -22,6 +22,11 @@
     display: flex;
     justify-content: space-evenly;
     gap: 5rem;
+    .card {
+      zoom: 0.7;
+      height: 50vh;
+      width: 80vw;
+    }
   }
 }
 
