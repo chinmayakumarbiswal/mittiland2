@@ -2016,7 +2016,7 @@ export default function SuperRare() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <Canvas  camera={{ fov:70, position: [0,0,5]}} className="min-vh-100 min-vw-100">
+          <Canvas  camera={{ fov:70, position: [0,0,2]}} className="min-vh-100 min-vw-100">
           {/* this  above line is the for the objct contraol  */}
             <Suspense fallback={null}>
             <ambientLight />
@@ -2046,7 +2046,7 @@ export default function SuperRare() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <Canvas  camera={{ fov:70, position: [0,0,5]}} className="min-vh-100 min-vw-100">
+          <Canvas  camera={{ fov:70, position: [0,0,2]}} className="min-vh-100 min-vw-100">
           {/* this  above line is the for the objct contraol  */}
             <Suspense fallback={null}>
             <ambientLight />
@@ -2061,7 +2061,7 @@ export default function SuperRare() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <Canvas  camera={{ fov:70, position: [0,0,5]}} className="min-vh-100 min-vw-100">
+          <Canvas  camera={{ fov:70, position: [0,0,2]}} className="min-vh-100 min-vw-100">
           {/* this  above line is the for the objct contraol  */}
             <Suspense fallback={null}>
             <ambientLight />
@@ -2076,7 +2076,7 @@ export default function SuperRare() {
         </Carousel.Item>
 
         <Carousel.Item>
-          <Canvas  camera={{ fov:70, position: [0,0,5]}} className="min-vh-100 min-vw-100">
+          <Canvas  camera={{ fov:70, position: [0,0,2]}} className="min-vh-100 min-vw-100">
           {/* this  above line is the for the objct contraol  */}
             <Suspense fallback={null}>
             <ambientLight />

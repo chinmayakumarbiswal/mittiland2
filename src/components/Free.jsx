@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import icon from "../assets/icon.png";
+import logo from "../assets/icon.png";
 import super1 from "../assets/super1.png";
 import release2 from "../assets/release2.png";
 import style from "../components/style.css";
@@ -15,7 +15,8 @@ export default function Free() {
         </div>
         <div className="content">
           <div className="image">
-            <img src={icon} alt="icon" id="rohan"/>
+          <img src={logo} alt="logo" height="60px" width="80px"/>
+            {/* <img src="https://chinmayakumarbiswal.in/js/chinmaya1.png" alt="" height="80px" width="160px" /> */}
           </div>
           <h2 className="title">Free NFT for early birds</h2>
           <p className="description">
@@ -23,7 +24,7 @@ export default function Free() {
           </p>
         </div>
       </div>
-      <div className="cards">
+      {/* <div className="cards">
         <div className="card1">
           <Card
             image={super1}
@@ -44,7 +45,7 @@ export default function Free() {
             time={2}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
