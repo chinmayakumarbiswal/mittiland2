@@ -1952,7 +1952,7 @@ export default function SuperRare() {
   return (
     <div className="super-rare">
       <div className="title-container">
-        <h2 className="title">LE  Rare Auction</h2>
+        <h2 className="title">Education NFT AUCTION</h2>
         <p className="description">
           We will release limited edition NFT's early which will be ok
           bid on via <a href="#">OpenSea</a>.

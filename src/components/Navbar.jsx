@@ -36,7 +36,10 @@ export default function Navbar({ changeTheme, currentTheme }) {
             <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="/Contactus">Contact</a>
+          </li>
+          <li>
+            <a href="/About">About</a>
           </li>
           <li>
             <a href="#launch">Launch</a>

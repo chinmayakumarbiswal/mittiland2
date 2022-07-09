@@ -64,12 +64,15 @@ export default function Home() {
             We want to put college inside prallel world to change the tradition education system and to provide them incredable platform 
             
           </p>
-          <button>Sign Up</button>
+          <form action="https://product.mittiland.com/">
+            <button>Sign Up</button>
+          </form>
+          
         </div>
         <div className="image-container">
           <div className="image">
             {/* <img src={home} alt="home image" /> */}
-            <Canvas  camera={{ fov:70, position: [0,0,5]}}>
+            <Canvas  camera={{ fov:70, position: [0,0,4]}}>
               {/* this  above line is the for the objct contraol  */}
               <Suspense fallback={null}>
               <ambientLight />
