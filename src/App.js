@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// import { BrowserRouter as Router, Link } from "react-router-dom";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
 import Free from "./components/Free";
@@ -7,9 +8,14 @@ import Like from "./components/Like";
 import Navbar from "./components/Navbar";
 import Release from "./components/Release";
 import ScrollToTop from "./components/ScrollToTop";
+import Contactus from "./components/contact/ContactUs";
+import { Routes } from 'react-router-dom';
 import Signup from "./components/Signup";
 import SuperRare from "./components/SuperRare";
 import scrollreveal from "scrollreveal";
+import About from "./components/about/about";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"; 
 import "./sass/index.scss";
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -52,7 +58,7 @@ function App() {
   return (
     <div data-theme={theme} className="app-container">
       <ScrollToTop />
-      <Navbar changeTheme={changeTheme} currentTheme={theme} />
+      {/* <Navbar changeTheme={changeTheme} currentTheme={theme} />
       <Home />
       <Free />
       <Clients />
@@ -60,7 +66,25 @@ function App() {
       <Release />
       <Like />
       <Signup />
-      <Footer />
+      <Footer /> */}
+
+      <Router>
+        <div >
+        <Navbar changeTheme={changeTheme} currentTheme={theme} />
+          <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contactus' element={<Contactus/>} />
+          <Route path='/About' element={<About/>} />
+          </Routes>
+          <Free />
+          <Clients />
+          <SuperRare />
+          <Release />
+          <Like />
+          <Signup />
+        <Footer />
+        </div>
+      </Router> 
     </div>
   );
 }
